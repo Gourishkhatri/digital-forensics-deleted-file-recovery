@@ -192,3 +192,46 @@ Digital-Forensics-Lab/
 
 └── README.md
 
+## Investigation Screenshots
+
+### 1. Deleted Confidential Report Recovered
+
+The deleted synthetic confidential investigation report was identified and recovered using Autopsy.
+
+![Recovered Confidential Report](Screenshots/01_confidential_report_recovered.jpeg)
+
+### 2. Deleted Authentication Log Recovered
+
+The deleted synthetic authentication log was recovered and analyzed to review recorded authentication events.
+
+![Recovered Authentication Log](Screenshots/02_authentication_log_recovered.jpeg)
+
+### 3. Deleted Evidence Image Recovered
+
+The deleted synthetic evidence image was identified and recovered from the forensic image.
+
+![Recovered Evidence Image](Screenshots/03_deleted_image_recovered.jpeg)
+
+## Forensic Workflow
+
+```text
+Synthetic Evidence Creation
+          ↓
+      FTK Imager
+          ↓
+     E01 Image
+          ↓
+       Autopsy
+          ↓
+   Forensic Ingest
+          ↓
+Deleted / Unallocated Analysis
+          ↓
+   Evidence Recovery
+          ↓
+   Hash Verification
+          ↓
+   Evidence Tagging
+          ↓
+    HTML Report
+
