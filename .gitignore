@@ -1,0 +1,16 @@
+# Autopsy working case
+Autopsy-Case/
+
+# Local forensic disk image
+*.vhdx
+
+# Forensic image files
+Forensic-Image/
+
+# Windows temporary files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp

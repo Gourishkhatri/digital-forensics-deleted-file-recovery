@@ -1,0 +1,142 @@
+DIGITAL FORENSICS LAB
+DELETED FILE RECOVERY INVESTIGATION
+
+Case ID: DFR-001
+Case Name: Deleted File Recovery Investigation
+Examiner: Gourish Khatri
+Environment: Controlled Training Laboratory
+Forensic Tool: Autopsy 4.23.1
+Forensic Image: DFR-001-E002.E01
+
+
+1. INVESTIGATION OBJECTIVE
+--------------------------
+The objective of this controlled laboratory investigation was to
+identify and recover deleted files from a synthetic forensic image
+using Autopsy.
+
+
+2. EVIDENCE SOURCE
+------------------
+Data Source: DFR-001-E002.E01
+Image Type: E01 forensic image
+Environment: Synthetic training evidence
+Timezone: Asia/Calcutta (GMT+5:30)
+
+
+3. ANALYSIS PROCESS
+-------------------
+The forensic image was loaded into Autopsy 4.23.1.
+
+The following ingest modules were used:
+
+- File Type Identification
+- Extension Mismatch Detector
+- Embedded File Extractor
+- Picture Analyzer
+- Keyword Search
+- Interesting Files Identifier
+- PhotoRec Carver
+- Data Source Integrity
+
+Ingest processing completed successfully.
+
+
+4. DELETED FILE ANALYSIS
+------------------------
+Autopsy identified deleted/unallocated file entries within the
+forensic image.
+
+Relevant recovered evidence was identified and reviewed using
+the Autopsy Result Viewer and Content Viewer.
+
+
+5. RECOVERED EVIDENCE
+---------------------
+
+Evidence 01:
+Original Evidence: confidential_report.txt
+Recovered Autopsy File: $RJT1E2X.txt
+Size: 683 bytes
+Status: Recovered
+Description: Confidential Investigation Report from the synthetic
+training environment.
+
+
+Evidence 02:
+Original Evidence: login_log.txt
+Recovered Autopsy File: $R7B81OO.txt
+Size: 461 bytes
+Status: Recovered
+Description: Synthetic authentication log containing login and
+file-access events.
+
+
+Evidence 03:
+Original Evidence: photo_01.jpg
+Recovered Autopsy File: $RAZ21YG.jpg
+Size: 50,626 bytes
+Status: Recovered
+Description: Synthetic forensic evidence image.
+
+
+6. OBSERVED AUTHENTICATION EVENTS
+---------------------------------
+The recovered authentication log contained the following events:
+
+2026-09-28 09:14:22 analyst01 - Successful login
+2026-09-28 09:18:41 analyst01 - File access
+2026-09-28 10:05:13 analyst01 - Successful login
+2026-09-28 11:32:07 admin01   - Successful login
+2026-09-28 14:21:55 analyst01 - File access
+2026-09-28 18:47:12 analyst01 - Logout
+
+These events belong to the synthetic controlled training environment.
+
+
+7. EVIDENCE HANDLING
+--------------------
+The recovered files were extracted from the forensic image and
+stored separately in the Recovered-Files directory.
+
+The recovered evidence items were tagged in Autopsy using the
+"Recovered Evidence" tag.
+
+Three recovered evidence items were included in the generated
+HTML forensic report.
+
+
+8. HASHING
+----------
+MD5 and SHA-256 hashes were calculated for the extracted recovered
+copies.
+
+The hash values are documented separately in:
+
+DFR-001_Recovered_File_Hashes.txt
+
+
+9. REPORTING
+------------
+An HTML forensic report was generated using Autopsy.
+
+Report configuration:
+- HTML Report
+- Specific Tagged Results
+- Tag: Recovered Evidence
+
+The generated report contains the three tagged recovered evidence
+files.
+
+
+10. CONCLUSION
+--------------
+The controlled laboratory investigation successfully demonstrated
+the identification and recovery of deleted synthetic files from a
+forensic image using Autopsy.
+
+Three relevant deleted evidence items were recovered, reviewed,
+hashed, tagged, and included in the final HTML forensic report.
+
+This investigation was performed entirely using synthetic training
+evidence in a controlled laboratory environment.

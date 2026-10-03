@@ -1,0 +1,13 @@
+DIGITAL FORENSICS TRAINING LAB
+Authentication Log
+
+Date       Time      User          Event
+2026-09-28 09:14:22  analyst01     Successful login
+2026-09-28 09:18:41  analyst01     File access
+2026-09-28 10:05:13  analyst01     Successful login
+2026-09-28 11:32:07  admin01       Successful login
+2026-09-28 14:21:55  analyst01     File access
+2026-09-28 18:47:12  analyst01     Logout
+
+System: DF-LAB-WIN01
+Environment: Controlled Training Laboratory

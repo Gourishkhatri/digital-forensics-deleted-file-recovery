@@ -1,0 +1,15 @@
+DIGITAL FORENSICS TRAINING LAB
+Document: Project Plan
+
+Project Name: Security Monitoring Improvement
+
+Objectives:
+1. Improve system log monitoring.
+2. Review authentication events.
+3. Identify unusual login patterns.
+4. Document security-related incidents.
+5. Maintain proper evidence handling procedures.
+
+Project Status: In Progress
+
+Prepared For: Internal Security Training

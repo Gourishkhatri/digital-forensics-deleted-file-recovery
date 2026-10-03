@@ -1,0 +1,25 @@
+DIGITAL FORENSICS TRAINING LAB
+Document: Confidential Investigation Report
+
+Case Reference: DFR-001
+
+Subject:
+Controlled laboratory investigation involving simulated suspicious
+authentication activity.
+
+Initial Observation:
+Multiple authentication events were recorded during the training
+exercise.
+
+Investigation Objective:
+Determine whether the available evidence contains artifacts that
+may help reconstruct the simulated activity.
+
+Evidence Handling:
+All evidence used in this exercise is synthetic and created
+specifically for digital forensics training.
+
+Conclusion:
+Further analysis of the forensic image is required.
+
+Classification: Training Use Only

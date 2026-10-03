@@ -1,0 +1,15 @@
+DIGITAL FORENSICS TRAINING LAB
+Document: Employee Notes
+
+Employee ID: EMP-1042
+Department: Information Technology
+Role: System Support Trainee
+
+Training Notes:
+- Review system security logs regularly.
+- Keep software updated.
+- Use strong passwords for all accounts.
+- Report suspicious login activity to the security team.
+
+Status: Training document
+Classification: Internal Training
